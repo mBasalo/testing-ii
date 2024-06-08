@@ -35,7 +35,6 @@ class DBSearch {
         System.out.println("Resultado de la busqueda: "+ resultado); // muestro lo que capture por consola
         assertTrue(resultado.contains("CABAÃ±A\nLa Carmelita")); // comparo el resultado con lo que espero
 
-        driver.quit();
 
 
     }
